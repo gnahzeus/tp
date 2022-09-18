@@ -192,7 +192,9 @@ public class EditCommand extends Command {
             this.remark = remark;
         }
 
-        public Optional<Remark> getRemark() { return Optional.ofNullable(remark); }
+        public Optional<Remark> getRemark() {
+            return Optional.ofNullable(remark);
+        }
 
         /**
          * Sets {@code tags} to this object's {@code tags}.
